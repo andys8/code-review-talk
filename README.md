@@ -57,7 +57,7 @@ Decide CI and device number of approvals and when.
 
 ---
 
-# Opening a pull request
+# Create a Pull Request
 
 Add information: what would you tell somebody?
 Screenshot, Video (examples from CE?)
@@ -75,7 +75,7 @@ otherwise different format -> Followups
 
 ---
 
-# Pull Request: Code Review
+# Code Review 1
 
 Serves the team, is not about letting pass
 Clear, over communicate. What to do? Or "you decide".
@@ -89,6 +89,8 @@ Discussions: But keep small
 
 ---
 
+# Code Review 2
+
 QA! Devs should always do QA. Break it.
 
 Tests: Were tests added? Do the tests make sense coverage?
@@ -99,6 +101,18 @@ Is it a small improvement or a large feature that could break everything?
 Hard: Consistency, naming, modules/folders
 Beware of bikeshedding
 Is the change an opinion and could the author just have a different opinion
+
+---
+
+# Code Review 3: Questions
+
+- How important is the code that is changed?
+- Do I understand the change?
+- Is there a simpler way to achieve the same goal?
+- Could the change break something or other teams?
+- What are the edge cases?
+- Could this introduce security issue?
+- Are tests added?
 
 ---
 
