@@ -40,13 +40,17 @@
 
 # Why code reviews?
 
+## Goal
+
 - Goal: Improve the quality of the code that's added
 - Systematic approach to reviewing other programmers' code for mistakes
 - Checks if all _requirements_ have been implemented correctly
 
 ---
 
-# Why code reviews? - Share knowledge
+# Why code reviews?
+
+## Share knowledge
 
 > Code review is **more than just a quality check**
 
@@ -56,6 +60,12 @@ Multiple developers looking at the PR:
 - Reviewers _have to understand_ the context and scope
 - Can be a great tool to reduce technical debt
 
+---
+
+# Why code reviews?
+
+## Get feedback
+
 Can be a valuable learning moment for developers
 => Get _feedback_ about your code and coding style
 
@@ -63,13 +73,13 @@ Can be a valuable learning moment for developers
 
 # Pull Request and Code Review
 
-- In general: Setup and CI
+- In general: Pull request setup and CI
 - Author: How to _create_ a pull request?
 - Reviewer: How to _review_ a pull request?
 
 ---
 
-# In General: Setup and CI (Continuous Integration)
+# Pull Request: Setup
 
 Opinionated, whatever works _best for the team_
 
@@ -79,7 +89,7 @@ Opinionated, whatever works _best for the team_
 
 ---
 
-# In General: CI (Continuous Integration)
+# Pull Request: CI (Continuous Integration)
 
 > Automate everything that's possible
 
@@ -95,30 +105,60 @@ Opinionated, whatever works _best for the team_
 
 # Author: How to create a pull request?
 
+How to open a pull request that can easily be reviewed?
+
+---
+
+# Create a pull request
+
+## Provide information
+
 Add information: what would you tell somebody?
 Screenshot, Video (examples from CE?)
 Smaller is easier to review
 Try to speak about controversial questions before code review
 
-Use commit messages
-Author: Review your own pull request
+---
 
+# Create a pull request
+
+## Share knowledge
+
+Use commit messages
 Don't explain what is clear already, but explain what is interesting to others.
 What were the decisions and why? Are you unsure about certain decisions?
-
 Share knowledge: But think about different format -> Followups
 
 ---
 
-# Reviewer: How to _review_ a pull request?
+# Create a pull request
+
+## Review yourself
+
+Review your own pull request
 
 ---
 
-# Code Review 1
+# Reviewer: How to review a pull request?
 
+How to give valuable feedback?
+
+---
+
+# Code Review: Try the code
+
+Try the code
+Try to understand
+QA! Developers should always do QA. Break it.
+
+---
+
+# Code Review: Friendly atmosphere
+
+Specific and actionable feedback
 Serves the team, is not about letting pass
 Clear, over communicate. What to do? Or "you decide".
-Language is important, be nice to each other.
+Language is important, be nice to each other. (TODO: Friendly atmosphere)
 Comments should be about the code (Not: I don't like this).
 Language is important, since it might look negative.
 Do not trust, ask questions instead
@@ -128,8 +168,10 @@ Discussions: But keep small
 
 ---
 
-# Code Review 2
+# Code Review: Try the code
 
+Try the code
+Try to understand
 QA! Developers should always do QA. Break it.
 
 Tests: Were tests added? Do the tests make sense coverage?
@@ -163,5 +205,5 @@ What is working well?
 
 # More Information
 
-- [1](https://www.youtube.com/watch?v=1Ge__2Yx_XQ)
-- [2](https://dev.to/alexomeyer/code-review-a-comprehensive-checklist-5gnm)
+- [Clément Mihailescu](https://www.youtube.com/watch?v=1Ge__2Yx_XQ)
+- [Alex Omeyer](https://dev.to/alexomeyer/code-review-a-comprehensive-checklist-5gnm)
