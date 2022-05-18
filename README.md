@@ -83,9 +83,9 @@ Can be a valuable learning moment for developers
 
 Opinionated, whatever works _best for the team_
 
-- Decide how comments should be handled
-- Define number of approvals and when
 - Decide how developers are assigned
+- Decide how comments should be handled
+- Define number of approvals and the condition
 
 ---
 
