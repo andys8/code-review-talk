@@ -43,7 +43,7 @@
 ## Goal
 
 - Goal: Improve the quality of the code that's added
-- Systematic approach to reviewing other programmers' code for mistakes
+- Systematic approach to reviewing new code for mistakes
 - Checks if all _requirements_ have been implemented correctly
 
 ---
@@ -163,6 +163,8 @@ Also leverage other formats:
 Review your own pull request
 ... and this time it's **fine if you're nitpicky**
 
+Avoid unfinished pull requests and multiple review loops
+
 ---
 
 # Reviewer: How to review a pull request?
@@ -171,65 +173,85 @@ How to give valuable feedback?
 
 ---
 
-# Code Review: Try the code
+# Code Review
 
-Try to **run** the code
+## Friendly atmosphere
+
+Serves the team, is not about letting pass
+Language is important, since it might look negative
+Code reviews aren't a tool to criticize colleagues
+Comments should be about the code
+
+---
+
+# Code Review
+
+## Goal: Specific and actionable feedback
+
+**Clear and over-communicate**
+What to do? Or "you decide".
+Ask questions rather than making statements.
+Enough information so the author can understand the question
+
+---
+
+# Code Review
+
+## Try the code
+
+Checkout and **run** the code
 Try to **understand**
 Try to **break it** (QA)!
 
 ---
 
-# Code Review: Friendly atmosphere
+# Code Review
 
-Specific and actionable feedback
-Serves the team, is not about letting pass
-Clear, over communicate. What to do? Or "you decide".
-Language is important, be nice to each other. (TODO: Friendly atmosphere)
-Comments should be about the code (Not: I don't like this).
-Language is important, since it might look negative.
-Do not trust, ask questions instead
-PR in PR? Or suggestions?
-Check your comments again
-Discussions: But keep small
+## Add comments
+
+- If you don't understand: Do not trust, ask questions
+- Discussions, but keep them small ⚠️
+- PR in PR or code suggestions? ⚠️
+- Differentiate if code suggestion would be opinionated ⚠️
+- Check your review again
 
 ---
 
-# Code Review: Try the code
+# Code Review
 
-Try the code
-Try to understand
-QA! Developers should always do QA. Break it.
-
-Tests: Were tests added? Do the tests make sense coverage?
-
-Relation: How important is the code?
-Is it a small improvement or a large feature that could break everything?
-
-Hard: Consistency, naming, modules/folders
-Beware of "bikeshedding"
-Is the change an opinion and could the author just have a different opinion
-
----
-
-# Code Review 3: Questions
+## Questions about change
 
 - How important is the code that is changed?
 - Do I understand the change?
-- Is there a simpler way to achieve the same goal?
+- Are feature requirements covered?
 - Could the change break something or other teams?
 - What are the edge cases?
 - Could this introduce security issue?
-- Are tests added?
+- Were tests added?
 
 ---
 
-# Code Review: Discussion
+# Code Review
 
-What is working well?
+## Questions about code
+
+- Is there a simpler way to achieve the same goal?
+- Is documentation missing / needs to be updated?
+- Is the change consistent (naming, modules, libraries)? ⚠️
+- Is the code self-explanatory?
+- Could reorganizing improve readability?
 
 ---
 
-# More Information
+# Code Review Discussion
+
+What is working well for you?
+
+**End**
+
+---
+
+# Sources
 
 - [Clément Mihailescu](https://www.youtube.com/watch?v=1Ge__2Yx_XQ)
 - [Alex Omeyer](https://dev.to/alexomeyer/code-review-a-comprehensive-checklist-5gnm)
