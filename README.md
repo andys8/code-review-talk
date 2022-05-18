@@ -138,9 +138,9 @@ but explain what is **interesting to others**.
 ## Description
 
 Screenshots or video
-Smaller change is easier to review
-Speak about controversial questions before code review
+Smaller changes are easier to review
 Commits (and commit messages) can be powerful
+Speak about controversial questions before code review
 
 ---
 
@@ -150,7 +150,7 @@ Commits (and commit messages) can be powerful
 
 Also leverage other formats:
 
-- Call to discuss a topic in detail
+- Session to discuss a topic in detail
 - Small presentation
 
 ---
@@ -177,7 +177,8 @@ How to give valuable feedback?
 ## Friendly Atmosphere
 
 Serves the team, is _not about letting pass_
-Language is important, since it might look negative
+**Language** is important and might be perceived negatively
+Feel free to praise what you like
 Code reviews aren't a tool to criticize colleagues
 
 Comments should be **about code**
@@ -191,7 +192,7 @@ Comments should be **about code**
 Clear and **over-communicate**
 Tell what to do or "you decide"
 Better ask questions rather than making statements
-With enough information to understand the question
+With enough information to be able to understand the question
 
 ---
 
@@ -209,9 +210,9 @@ Try to **break it** (QA)!
 
 ## Add Comments
 
-- If you don't understand: Do not trust, _ask questions_
+- If you don't understand: **Do not trust, ask questions**
 - Discussions, but keep them small ⚠️
-- PR in PR or code suggestions? ⚠️
+- Code suggestions or PR-in-PR? ⚠️
 - Differentiate if code suggestion would be _opinionated_ ⚠️
 - Check your review again
 
