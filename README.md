@@ -113,10 +113,35 @@ How to open a pull request that can easily be reviewed?
 
 ## Provide information
 
-Add information: what would you tell somebody?
-Screenshot, Video (examples from CE?)
-Smaller is easier to review
-Try to speak about controversial questions before code review
+> What would you tell somebody?
+
+- "No description provided"?!
+- "WIP" or "Make linter happy"?!
+
+---
+
+# Create a pull request
+
+## Share insights
+
+> What would you tell somebody?
+
+Don't explain what is clear already,
+but explain what is **interesting to others**.
+
+- What were the decisions and why?
+- Are you uncertain about some decisions?
+
+---
+
+# Create a pull request
+
+## Provide information
+
+Screenshots or video
+Smaller change is easier to review
+Speak about controversial questions before code review
+Commits (and commit messages) can be powerful
 
 ---
 
@@ -124,18 +149,19 @@ Try to speak about controversial questions before code review
 
 ## Share knowledge
 
-Use commit messages
-Don't explain what is clear already, but explain what is interesting to others.
-What were the decisions and why? Are you unsure about certain decisions?
-Share knowledge: But think about different format -> Followups
+Also leverage other formats:
+
+- Call to discuss a topic in detail
+- Small presentation
 
 ---
 
 # Create a pull request
 
-## Review yourself
+## Self-Review
 
 Review your own pull request
+... and this time it's **fine if you're nitpicky**
 
 ---
 
@@ -147,9 +173,9 @@ How to give valuable feedback?
 
 # Code Review: Try the code
 
-Try the code
-Try to understand
-QA! Developers should always do QA. Break it.
+Try to **run** the code
+Try to **understand**
+Try to **break it** (QA)!
 
 ---
 
