@@ -25,7 +25,7 @@
 
 ---
 
-# What's a pull request?
+# What's a Pull Request?
 
 > Pull requests let you _tell others about changes_
 > you've pushed to a branch in a repository on GitHub.
@@ -38,7 +38,7 @@
 
 ---
 
-# Why code reviews?
+# Why Code Reviews?
 
 ## Goal
 
@@ -48,9 +48,9 @@
 
 ---
 
-# Why code reviews?
+# Why Code Reviews?
 
-## Share knowledge
+## Share Knowledge
 
 > Code review is **more than just a quality check**
 
@@ -62,9 +62,9 @@ Multiple developers looking at the PR:
 
 ---
 
-# Why code reviews?
+# Why Code Reviews?
 
-## Get feedback
+## Get Feedback
 
 Can be a valuable learning moment for developers
 => Get _feedback_ about your code and coding style
@@ -74,8 +74,8 @@ Can be a valuable learning moment for developers
 # Pull Request and Code Review
 
 - In general: Pull request setup and CI
-- Author: How to _create_ a pull request?
-- Reviewer: How to _review_ a pull request?
+- Author: How to **create** a pull request?
+- Reviewer: How to **review** a pull request?
 
 ---
 
@@ -83,7 +83,7 @@ Can be a valuable learning moment for developers
 
 Opinionated, whatever works _best for the team_
 
-- Team: Decide how comments should be handled.
+- Decide how comments should be handled
 - Define number of approvals and when
 - Decide how developers are assigned
 
@@ -98,20 +98,19 @@ Opinionated, whatever works _best for the team_
 - Deployment
 - Formatting
 - Static code analysis
-- Special rules the team has decided on
-  e.g. line length, forbidden imports or words
+- Special rules e.g. line length or forbidden imports
 
 ---
 
-# Author: How to create a pull request?
+# Author: How to Create a Pull Request?
 
 How to open a pull request that can easily be reviewed?
 
 ---
 
-# Create a pull request
+# Create a Pull Request
 
-## Provide information
+## Share Insights
 
 > What would you tell somebody?
 
@@ -120,9 +119,9 @@ How to open a pull request that can easily be reviewed?
 
 ---
 
-# Create a pull request
+# Create a Pull Request
 
-## Share insights
+## Share Insights
 
 > What would you tell somebody?
 
@@ -134,9 +133,9 @@ but explain what is **interesting to others**.
 
 ---
 
-# Create a pull request
+# Create a Pull Request
 
-## Provide information
+## Description
 
 Screenshots or video
 Smaller change is easier to review
@@ -145,9 +144,9 @@ Commits (and commit messages) can be powerful
 
 ---
 
-# Create a pull request
+# Create a Pull Request
 
-## Share knowledge
+## Share Knowledge
 
 Also leverage other formats:
 
@@ -156,7 +155,7 @@ Also leverage other formats:
 
 ---
 
-# Create a pull request
+# Create a Pull Request
 
 ## Self-Review
 
@@ -167,7 +166,7 @@ Avoid unfinished pull requests and multiple review loops
 
 ---
 
-# Reviewer: How to review a pull request?
+# Reviewer: How to Review a Pull Request?
 
 How to give valuable feedback?
 
@@ -175,29 +174,30 @@ How to give valuable feedback?
 
 # Code Review
 
-## Friendly atmosphere
+## Friendly Atmosphere
 
-Serves the team, is not about letting pass
+Serves the team, is _not about letting pass_
 Language is important, since it might look negative
 Code reviews aren't a tool to criticize colleagues
-Comments should be about the code
+
+Comments should be **about code**
 
 ---
 
 # Code Review
 
-## Goal: Specific and actionable feedback
+## Goal: Specific and Actionable Feedback
 
-**Clear and over-communicate**
-What to do? Or "you decide".
-Ask questions rather than making statements.
-Enough information so the author can understand the question
+Clear and **over-communicate**
+Tell what to do or "you decide"
+Better ask questions rather than making statements
+With enough information to understand the question
 
 ---
 
 # Code Review
 
-## Try the code
+## Try the Code
 
 Checkout and **run** the code
 Try to **understand**
@@ -207,19 +207,19 @@ Try to **break it** (QA)!
 
 # Code Review
 
-## Add comments
+## Add Comments
 
-- If you don't understand: Do not trust, ask questions
+- If you don't understand: Do not trust, _ask questions_
 - Discussions, but keep them small ⚠️
 - PR in PR or code suggestions? ⚠️
-- Differentiate if code suggestion would be opinionated ⚠️
+- Differentiate if code suggestion would be _opinionated_ ⚠️
 - Check your review again
 
 ---
 
 # Code Review
 
-## Questions about change
+## Questions About the Change
 
 - How important is the code that is changed?
 - Do I understand the change?
@@ -233,7 +233,7 @@ Try to **break it** (QA)!
 
 # Code Review
 
-## Questions about code
+## Questions About the Code
 
 - Is there a simpler way to achieve the same goal?
 - Is documentation missing / needs to be updated?
