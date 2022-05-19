@@ -238,7 +238,7 @@ Try to **break it** (QA)!
 
 - Is there a simpler way to achieve the same goal?
 - Is documentation missing / needs to be updated?
-- Is the change consistent (naming, modules, libraries)? ⚠️
+- Is the change consistent (naming, modules, libraries)?
 - Is the code self-explanatory?
 - Could reorganizing improve readability?
 
